@@ -11,6 +11,13 @@ section {
   justify-content: center;
   align-items: center;
   color: #fff;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .one {
